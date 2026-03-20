@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/
+md_to_pdf.py
+generate_resume_pdf.py
+scientific_data/temp_*.txt
+.env

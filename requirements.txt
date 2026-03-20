@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langgraph
+faiss-cpu
+sentence-transformers
+transformers
+torch
+numpy
+streamlit
+python-dotenv

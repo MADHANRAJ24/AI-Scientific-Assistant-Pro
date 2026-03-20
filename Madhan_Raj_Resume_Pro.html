@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhan Raj D - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg: #ffffff;
+            --section-bg: #f3f4f6;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.5;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 40px;
+            background: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg);
+            padding: 50px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header { text-align: center; margin-bottom: 30px; }
+        h1 { margin: 0; color: var(--primary); font-size: 32px; font-weight: 700; }
+        .subtitle { font-size: 18px; color: var(--text-light); font-weight: 600; margin-top: 5px; }
+        .contact { margin-top: 10px; font-size: 14px; color: var(--text-light); }
+        .contact a { color: var(--primary); text-decoration: none; }
+        
+        h2 { border-bottom: 2px solid var(--primary); padding-bottom: 5px; margin-top: 30px; color: var(--primary); font-size: 20px; text-transform: uppercase; letter-spacing: 1px; }
+        h3 { margin-bottom: 10px; font-size: 18px; }
+        
+        .section-content { margin-bottom: 20px; }
+        .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .skill-item { margin-bottom: 10px; }
+        .skill-title { font-weight: 700; color: var(--primary); margin-right: 10px; }
+        
+        .project-item { margin-bottom: 20px; }
+        .project-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .project-title { font-weight: 700; font-size: 16px; }
+        .project-tools { font-style: italic; color: var(--text-light); font-size: 14px; }
+        
+        ul { padding-left: 20px; margin-top: 5px; }
+        li { margin-bottom: 5px; }
+        
+        @media print {
+            body { background: none; padding: 0; }
+            .container { box-shadow: none; padding: 0; max-width: 100%; }
+            .no-print { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print" style="position: fixed; top: 20px; right: 20px; background: #2563eb; color: white; padding: 10px 20px; border-radius: 5px; cursor: pointer;" onclick="window.print()">Print to PDF</div>
+    
+    <div class="container">
+        <header>
+            <h1>Madhan Raj D</h1>
+            <div class="subtitle">Generative AI Engineer (RAG & Agentic Systems)</div>
+            <div class="contact">
+                Madurai, India | +91-8098297206 | mathan2412005@gmail.com<br>
+                <a href="https://www.linkedin.com/in/d-madhan-raj-22032b27b/">LinkedIn</a> | <a href="https://github.com/MADHANRAJ24">GitHub</a> | <a href="https://madhanraj24.github.io/my-portfolio/">Portfolio</a> | <a href="https://www.kaggle.com/madhanraj24">Kaggle</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <div class="section-content">
+                Innovative <b>Generative AI Engineer</b> specializing in <b>Agentic RAG</b>, <b>NLP</b>, and <b>Multi-Agent Orchestration</b>. Proven track record in building complex autonomous systems, including scientific research assistants and high-frequency trading bots using <b>LangGraph</b>. Expert in designing self-correcting AI workflows and dynamic knowledge retrieval systems.
+            </div>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="section-content">
+                <div class="skills-grid">
+                    <div class="skill-item"><span class="skill-title">GenAI & LLMs:</span> LangGraph, LangChain, Agentic RAG, Stateful Reasoning, CrewAI, Prompt Engineering</div>
+                    <div class="skill-item"><span class="skill-title">ML & Data:</span> Python, PyTorch, TensorFlow, Scikit-learn, FAISS, Sentence Transformers, NLP</div>
+                    <div class="skill-item"><span class="skill-title">Tools:</span> FastAPI, React, SQL (PostgreSQL/Supabase), Git, Docker, Power BI</div>
+                    <div class="skill-item"><span class="skill-title">Languages:</span> Python (Advanced), SQL, C++, Java</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Key Projects</h2>
+            <div class="section-content">
+                <div class="project-item">
+                    <div class="project-header">
+                        <span class="project-title">AI Scientific Assistant (Agentic RAG & Scientific Logic)</span>
+                        <span class="project-tools">LangGraph, FAISS, Sentence Transformers, Streamlit</span>
+                    </div>
+                    <ul>
+                        <li>Engineered an advanced <b>Agentic RAG</b> system for instrument recommendation using <b>LangGraph</b> for stateful reasoning.</li>
+                        <li>Implemented <b>Dynamic Knowledge Injection</b> with a FAISS pipeline that hot-loads new data without restarts.</li>
+                        <li>Developed a <b>History-Aware Reasoning</b> node for multi-turn dialogues and complementary instrument suggestions.</li>
+                        <li>Integrated rule-based validation guardrails to ensure physics-based constraint compliance.</li>
+                    </ul>
+                </div>
+                
+                <div class="project-item">
+                    <div class="project-header">
+                        <span class="project-title">Super Intelligent Trading Bot (Generative AI & Finance)</span>
+                        <span class="project-tools">LangGraph, Groq, Angel One API, FastAPI</span>
+                    </div>
+                    <ul>
+                        <li>Developed a fully autonomous multi-actor trading agent utilizing <b>LangGraph</b> for stateful decision-making.</li>
+                        <li>Implemented self-improving reinforcement learning loop adjusting strategies based on historical data.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="section-content">
+                <b>B.Tech in Artificial Intelligence & Data Science</b> | Madurai, India | <b>80% Score</b>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

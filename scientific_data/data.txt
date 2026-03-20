@@ -1,0 +1,31 @@
+SEM: Scanning Electron Microscope. Used for high resolution imaging of solid samples. Requires dry and clean surface.
+XRD: X-Ray Diffraction. Used for crystal structure analysis. Sample must be powdered for best results.
+FTIR: Fourier Transform Infrared Spectroscopy. Used for chemical bond analysis. Sample can be liquid, solid, or gas.
+TEM: Transmission Electron Microscope. High-magnification imaging of thin sample slices. Requires ultra-thin sections.
+NMR: Nuclear Magnetic Resonance. Determines physical and chemical properties of atoms. Commonly used for organic molecules in liquid state.
+DSC: Differential Scanning Calorimetry. Measures heat flow associated with phase transitions. Sample must be solid or liquid in a crimped pan.
+TGA: Thermogravimetric Analysis. Measures weight change during heating. Used for thermal stability and composition.
+XPS: X-ray Photoelectron Spectroscopy. Surface chemistry analysis. Requires high vacuum and dry samples.
+ICP-OES: Inductively Coupled Plasma Optical Emission Spectroscopy. Trace metal analysis in liquid samples.
+HPLC: High-Performance Liquid Chromatography. Separates components in a liquid mixture. Requires liquid phase samples.
+GC-MS: Gas Chromatography-Mass Spectrometry. Identifies volatile substances in a gas or liquid mixture.
+RAMAN: Raman Spectroscopy. Vibrational mode analysis. Non-destructive, works for most sample types.
+AFM: Atomic Force Microscope. Nano-scale surface profiling. Works on solids in air or liquid.
+UV-Vis: Ultraviolet-Visible Spectroscopy. Measures light absorption. Usually for liquid samples in a cuvette.
+EDX: Energy Dispersive X-ray Spectroscopy. Elemental analysis often paired with SEM.
+PL: Photoluminescence. Analyzes electronic structure of semiconductors.
+BET: Brunauer-Emmett-Teller Analysis. Measures surface area and porosity of solids. Requires dry powders.
+DLS: Dynamic Light Scattering. Measures particle size in liquid suspension.
+MOKE: Magneto-Optic Kerr Effect. Analyzes magnetic properties of thin films.
+STM: Scanning Tunneling Microscope. Atomic-scale imaging of conductive surfaces.
+SQUID: Superconducting Quantum Interference Device. Measures extremely subtle magnetic fields.
+EPR: Electron Paramagnetic Resonance. Studies species with unpaired electrons.
+VSM: Vibrating Sample Magnetometer. Measures magnetic moment of solid or liquid samples.
+AES: Auger Electron Spectroscopy. High-resolution surface elemental analysis.
+XRF: X-ray Fluorescence. Elemental composition of solids and liquids.
+SAXS: Small-Angle X-ray Scattering. Analyzes nano-structures (1-100 nm).
+Nanoindenter: Measures mechanical properties (hardness, modulus) at the nano-scale.
+Ellipsometer: Measures thickness and optical constants of thin films.
+Zeta Potential: Measures surface charge of particles in liquid.
+Fluorescence Microscope: Visualizes biological samples using fluorescent tags.
+Confocal Microscope: High-resolution 3D imaging of biological or material samples.
